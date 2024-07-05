@@ -1,0 +1,8 @@
+{
+    "app_parameters": {
+        "polling_interval": "60",
+        "time_insert_bucket": "1",
+        "logs_path": "./logs",
+        "log_name": "AWS_S3_Sender.log"
+    }
+}
