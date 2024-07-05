@@ -1,6 +1,6 @@
 {
     "bucket-do-amigo": {
-        "backup": "True",
+        "backup_conf": "True",
         "subdirectory": "False",
         "directories": [
             "\\\\server\\arquivos\\to_backup",
@@ -11,9 +11,9 @@
             "\\\\bkpsrv-01\\HISTORICO\\BACKUP"
         ]
     },
-    "essias-teste-aws": {
-        "backup": "True",
-        "subdirectory": "False",
+    "essias-teste-aws2": {
+        "backup_conf": "True",
+        "subdirectory": "True",
         "directories": [
             "\\teste\\parado",
             "\\teste\\movido"

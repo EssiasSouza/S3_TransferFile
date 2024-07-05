@@ -78,7 +78,7 @@ def starting_credencials(timeout_to_add_bucket):
         AWS_ACCESS_KEY = input('AWS_ACCESS_KEY: ')
         AWS_SECRET_KEY = input('AWS_SECRET_KEY: ')
         save_credentials(BUCKET_NAME, AWS_ACCESS_KEY, AWS_SECRET_KEY)
-        print(f'-- New AWS Bucket "{BUCKET_NAME}" credentials was saved successfully.')
+        print(f'-- New AWS Bucket "{BUCKET_NAME}" credentials was saved successfully.\n')
 
     def timed_input(prompt, timeout=int(timeout_to_add_bucket)):
         
@@ -92,7 +92,7 @@ def starting_credencials(timeout_to_add_bucket):
         thread.join(timeout)
         
         if thread.is_alive():
-            print("\nInput timed out. Assuming 'no' for setup other bucket.")
+            print("\nInput timed out. Assuming 'no' for setup other bucket.\n")
             raise TimeoutExpired("Timeout expired")
         return user_input.strip().lower()
 
@@ -105,7 +105,7 @@ def starting_credencials(timeout_to_add_bucket):
         add_new_credentials_group()
     else:
         for i, (bucket, access_k, secret_k) in enumerate(stored_credentials_groups, start=1):
-            print(f'-- Executing process to bucket: {bucket}')
+            print(f'-- Executing process to bucket: {bucket}\n')
 
     while True:
         try:
