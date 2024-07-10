@@ -11,7 +11,7 @@ Este script Python realiza backup de arquivos locais em diretórios específicos
    - Execute `pip install boto3` para instalar dependências.
    - Execute `pip install botocore` para instalar dependências.
    - Execute `pip install cryptography` para instalar dependências.
-   - Execute `pip pyinstaller cryptography` para instalar dependências.
+   - Execute `pip install pyinstaller` para instalar dependências.
    - Garanta que `settings.json` e `directories_set.json` estejam configurados corretamente.
 
 2. **Configuração dos Arquivos de Configuração:**
@@ -59,7 +59,7 @@ This Python script backs up local files from specific directories and uploads th
    - Run `pip install boto3` to install dependencies.
    - Run `pip install botocore` to install dependencies.
    - Run `pip install cryptography` to install dependencies.
-   - Run `pip pyinstaller cryptography` to install dependencies.
+   - Run `pip install pyinstaller` to install dependencies.
    - Ensure `settings.json` and `directories_set.json` are correctly configured.
 
 2. **Configuration Files Setup:**
