@@ -1,8 +1,9 @@
 {
     "app_parameters": {
-        "polling_interval": "900",
-        "time_insert_bucket": "90",
+        "polling_interval": "10",
+        "time_insert_bucket": "5",
         "logs_path": "./logs",
-        "log_name": "AWS_S3_Sender.log"
+        "log_name": "AWS_S3_Sender.log",
+        "copy_registries": "COPY_REGISTRIES.txt"
     }
 }

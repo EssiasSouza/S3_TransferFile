@@ -1,14 +1,18 @@
 {
-    "bucket-do-amigo": {
-        "backup_conf": "True",
+    "movida-dump-semparar": {
+        "backup": "True",
         "subdirectory": "False",
         "directories": [
-            "\\\\server\\arquivos\\to_backup",
-            "\\\\172.16.20.20\\arquivos\\to_backup",
-            "\\\\SERVER_2\\FILES"
+            
+            "\\\\nfs\\arquivos\\Transacoes\\MOVIDA\\ARQUIVOSFATURA",
+            "\\\\nfs\\Arquivos\\Locadoras\\Transacoes\\DIA",
+            "\\\\nfs\\arquivos\\Transacoes\\MOVIDA\\ESTORNO",
+            "\\\\nfs\\arquivos\\Transacoes\\MOVIDA\\CONTRATOS",
+            "\\\\Arq_trnx\\tra",
+            "\\\\Arq_trnx\\cnv"
         ],
         "backup_path": [
-            "\\\\bkpsrv-01\\HISTORICO\\BACKUP"
+            "\\\\bredt1-svfsvp02\\AXWAY_BACKUP\\EDI\\3.HISTORICO\\3.FORNECEDOR\\MOVIDA"
         ]
     },
     "essias-teste-aws2": {

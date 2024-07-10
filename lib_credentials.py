@@ -105,7 +105,7 @@ def starting_credencials(timeout_to_add_bucket):
         add_new_credentials_group()
     else:
         for i, (bucket, access_k, secret_k) in enumerate(stored_credentials_groups, start=1):
-            print(f'-- Executing process to bucket: {bucket}\n')
+            print(f'-- Executing process to bucket: {bucket}')
 
     while True:
         try:
