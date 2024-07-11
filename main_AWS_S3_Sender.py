@@ -207,5 +207,6 @@ if __name__ == "__main__":
             result_test = check_dir_modifications()
         execute_all()
         print(f"Sleeping for {polling_interval} seconds before next run...\n")
-        countdown(polling_interval)
+        # countdown(polling_interval)
+        time.sleep(polling_interval)
         log('info', f"Sleeping for {polling_interval} seconds before next run...")
